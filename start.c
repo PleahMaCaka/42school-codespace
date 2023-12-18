@@ -11,13 +11,20 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <string.h>
 
-int	main(char argc, int*argv[])
+#define MSG_LEN 1024
+
+int	main(char argc, int *argv[])
 {
-	char	msg[1024];
+	char		msg[MSG_LEN];
+	ssize_t		msg_size;
 
-	strcpy(msg, "Hello Student!\n");
-	write(STDOUT_FILENO, msg, strlen(msg) + 1);
+	msg_size = read(STDIN_FILENO, msg, MSG_LEN - 1);
+	if (msg_size < 0)
+	{
+		return (1);
+	}
+	msg[msg_size] = '\0';
+	write(STDOUT_FILENO, msg, msg_size);
 	return (0);
 }
