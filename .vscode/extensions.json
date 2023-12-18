@@ -1,6 +1,9 @@
 {
     "recommendations": [
         "ms-vscode.cpptools-extension-pack",
-        "EditorConfig.EditorConfig"
+        "EditorConfig.EditorConfig",
+		"ms-vscode.makefile-tools",
+		"sohamkamani.code-eol",
+		"evilcat.norminette-42"
     ]
 }

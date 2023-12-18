@@ -1,6 +1,12 @@
 {
-    "files.associations": {
-        "unistd.h": "c",
-        "string.h": "c"
-    }
+	"files.associations": {
+		"unistd.h": "c",
+		"string.h": "c"
+	},
+	"norminette.command": "norminette -R CheckForbiddenSourceHeader",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true
 }
