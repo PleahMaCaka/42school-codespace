@@ -1,31 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   start.c                                            :+:      :+:    :+:   */
+/*   start.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anonymous <anonymous@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2077/07/07 17:27:37 by anonymous         #+#    #+#             */
-/*   Updated: 2077/07/07 17:27:37 by anonymous        ###   ########.fr       */
+/*   Created: 2023/12/18 05:22:25 by anonymous         #+#    #+#             */
+/*   Updated: 2023/12/18 05:28:23 by anonymous        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include "start.h"
-
-#define MSG_LEN 1024
-
-int	main(char argc, int *argv[])
+struct S_Pos
 {
-	char		msg[MSG_LEN];
-	ssize_t		msg_size;
-
-	msg_size = read(STDIN_FILENO, msg, MSG_LEN - 1);
-	if (msg_size < 0)
-	{
-		return (1);
-	}
-	msg[msg_size] = '\0';
-	write(STDOUT_FILENO, msg, msg_size);
-	return (0);
-}
+	int	x;
+	int	y;
+}	pos;

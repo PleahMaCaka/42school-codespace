@@ -1,6 +1,6 @@
 #!/bin/bash
 
-norminette start.c
+norminette *c *h
 norm_exit=$?
 if [ $norm_exit -eq 0 ] ; then
 	make

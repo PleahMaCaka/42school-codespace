@@ -24,4 +24,6 @@ run
 
 
 # ETC
+Insert 42 Header > `Ctrl` `Alt` `H`
+
 Recommended setting [norminette.command](./.vscode/settings.json) for Piscine Day00-09 ([ref](evilcat.norminette-42))

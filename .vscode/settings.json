@@ -8,5 +8,14 @@
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
 	"files.trimTrailingWhitespace": true,
-	"files.insertFinalNewline": true
+	"files.insertFinalNewline": true,
+	"42header.username": "anonymous",
+	"42header.email": "anonymous@42.fr",
+	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+	"files.exclude": {
+		"CMakeFiles": true,
+		"build": true,
+		"CMakeCache.txt": true,
+		"cmake_install.cmake": true,
+	}
 }

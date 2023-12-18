@@ -4,6 +4,7 @@
         "EditorConfig.EditorConfig",
 		"ms-vscode.makefile-tools",
 		"sohamkamani.code-eol",
-		"evilcat.norminette-42"
+		"evilcat.norminette-42",
+		"MariusvanWijk-JoppeKoers.codam-norminette-3"
     ]
 }
