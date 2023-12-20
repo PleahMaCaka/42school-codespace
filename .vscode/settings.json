@@ -1,7 +1,8 @@
 {
 	"files.associations": {
 		"unistd.h": "c",
-		"string.h": "c"
+		"string.h": "c",
+		"start.h": "c"
 	},
 	"norminette.command": "norminette -R CheckForbiddenSourceHeader",
 	"editor.tabSize": 4,
@@ -17,5 +18,6 @@
 		"build": true,
 		"CMakeCache.txt": true,
 		"cmake_install.cmake": true,
-	}
+	},
+	"debug.inlineValues": "on"
 }

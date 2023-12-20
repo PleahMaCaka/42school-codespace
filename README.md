@@ -5,21 +5,15 @@
 
 ## Setup
 ```bash
-# Change mode and register in alias for simple script
-chmod 777 ./run.sh
-alias run=./run.sh
-
-# Install Norminette
-python3 -m pip install --upgrade pip setuptools
-python3 -m pip install norminette
-
-# Create Makefile
-cmake .
+chmod 777
+./init.sh
 ```
 
 ## Run!
 ```bash
-run
+run 	# ✨ Norminette > Build > Execute
+norm	# Check the norm rule, nothing else
+cls		# Shorter alias of clear
 ```
 
 
