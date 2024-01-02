@@ -1,11 +1,11 @@
 # 42 School CodeSpcae
 
-> This repository for practice norminette rule. \
-> Works great with GitHub Codespaces!
+> This repository is designed to practice the norminette rule!
+> Works seamlessly with GitHub Codespaces!
 
 ## Setup
 ```bash
-chmod 777
+chmod 777 ./init.sh
 ./init.sh
 ```
 

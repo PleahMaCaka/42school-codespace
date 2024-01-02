@@ -21,4 +21,4 @@ cmake .
 
 # Shell script is running on subshell
 # For uisng alias in comportable, just run bash
-bash
+clear && bash -c 'echo "Happy Coding :)"'
