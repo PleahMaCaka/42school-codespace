@@ -15,7 +15,7 @@
 
 #define MSG_LEN 1024
 
-int	main(char argc, int *argv[])
+int	main(int argc, char **argv)
 {
 	char		msg[MSG_LEN];
 	ssize_t		msg_size;
